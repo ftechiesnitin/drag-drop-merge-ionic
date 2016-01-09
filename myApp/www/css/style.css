@@ -1,0 +1,94 @@
+/* Empty. Add your own CSS if you like */
+.container{
+    width:250px;
+    height:380px;
+    position:relative;
+}
+.container > div{
+    width:50%;
+    height:190px;
+    position:absolute;
+    transition:0.3s;
+    z-index:0;
+}
+.container > div.active{
+    width:90%;
+    height:90%;
+    z-index:10;
+}
+#one{
+  top:0;
+  left:0;
+  background:transparent;
+  padding:5px;
+  color:white;
+  border-right: 1px solid black;
+}
+#two{
+  top:0;
+  right:0;
+  background:transparent;
+  padding:5px;
+  color:white;
+  border-bottom: 1px solid black;
+}
+#three{
+  bottom:0px;
+  left:0;
+  background:transparent;
+  padding:5px;
+  color:white;
+  border-top: 1px solid black;
+}
+#four{
+  bottom:0px;
+  right:1px;
+  background:transparent;
+  padding:5px;
+  color:white;
+  border-left: 1px solid black;
+}
+
+.task{
+  border:1px solid grey;
+  width:80%;
+  padding:2px;
+  margin:2px;
+  background-color:lightgrey;
+  color:white;
+  z-index:4;
+  float:left;
+}
+
+body {
+  cursor: url('http://ionicframework.com/img/finger.png'), auto;
+}
+
+.cc
+{
+  height:400px;
+  width:100%;
+  border:1px solid red;
+}
+#uploading-files {
+    min-height: 80px;
+    position: relative;
+    overflow: hidden;
+    color: #fff
+}
+#uploading-files img {
+    width: 95px;
+    height: 80px;
+    margin-top: 9px;
+    border: 1px #FFDF00 dotted;
+}
+#uploading-files div {
+    position: relative;
+    width: 30%;
+    float: left;
+    margin-left: 1.5%;
+    padding-left: 2%;
+}
+#uploading-files a {
+    position: absolute;
+}

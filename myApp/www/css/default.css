@@ -1,0 +1,47 @@
+/* Styles go here */
+
+.container{
+    width:300px;
+    height:500px;
+    position:relative;
+}
+.container > div{
+    width:50%;
+    height:50%;
+    position:absolute;
+    transition:0.3s;
+    z-index:0;
+}
+.container > div.active{
+    width:90%;
+    height:90%;
+    z-index:10;
+}
+#one{top:0;left:0;background:blue;padding:5px;color:white;}
+#two{top:0;right:0;background:green;padding:5px;color:white;}
+#three{bottom:0;left:0;background:orange;padding:5px;color:white;}
+#four{bottom:0;right:0;background:red;padding:5px;color:white;}
+
+.task{
+  border:1px solid grey;
+  width:80%;
+  padding:2px;
+  margin:2px;
+  background-color:lightgrey;
+  color:white;
+  z-index:4;
+  float:left;
+
+
+}
+/*body {
+  cursor: url('http://ionicframework.com/img/finger.png'), auto;
+}*/
+
+
+.cc
+{
+  height:400px;
+  width:100%;
+  border:1px solid red;
+}
